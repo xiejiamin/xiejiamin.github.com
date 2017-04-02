@@ -6,19 +6,3 @@
  * @version $Id$
  */
 
-#father
-{
-	width: 800px;
-	height: 300px;
-	border: 2px solid lightgray;
-}
-
-#child
-{
-	width: 400px;
-	height: 200px;
-	background-color: lightgray;
-	margin:auto;
-	margin-top:50px;
-	margin-bottom: 50px;
-}

@@ -1,122 +1,190 @@
 #box
 {
-	width: 398px;
-	height: 635px;
-	border: 2px solid #E0E0E0;
+	width: 291px;
+	height: 489px;
+	border: 2px solid rgb(247,247,247);
 }
 
 .box1
 {
-	width: 400px;
+	width: 291px;
 	height: 30px;
-	background-color:#E0E0E0;
+	background-color:rgb(247,247,247);
 }
 
 .inbox1
 {
 	float: left;
-	width: 80px;
+	width: 20%;
 	height: 30px;
 	text-align:center;
-	font-weight: 100;
+	padding-top: 3px;
+	line-height: 22px;
+	font-weight: 300;
+	font-size: small;
+	color: #3C3C3C;
 }
 
 .inbox1:hover
 {
-	font-weight: bold;
+	float: left;
+	width: 20%;
+	height: 30px;
+	text-align:center;
+	padding-top: 3px;
+	line-height: 22px;
+	font-weight: 600;
+	font-size: small;
+	color: #3C3C3C;
 	background-color:white;
 }
 
 .box2
 {
-	width: 400px;
-	height: 85px;
-	border-bottom:2px solid #E0E0E0;
+	width: 291px;
+	height: 71px;
+	border-bottom:2px solid rgb(247,247,247);
 	text-align: center;
 }
 
-.inbox2
+.inbox2-1
 {
-	width: 360px;
+	width: 260px;
 	margin:10px;
+	margin-bottom: 0;
+	border:1px rgb(197,197,197) solid;
+}
+
+.inbox2-2
+{
+	width: 260px;
+	margin:12px;
+	margin-top: 5px;
+	border:1px rgb(197,197,197) solid;
 	
 }
 
 .box3
 {
-	width: 400px;
-	height: 160px;
-	border-bottom:2px solid #E0E0E0;
+	width: 291px;
+	height: 123px;
+	border-bottom:2px solid rgb(247,247,247);
 	text-align: center;
 }
 
 .inbox3img1
 {
 	float: left;
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-top: 10px;
 }
 
-.inbox3
+.inbox3-1
 {
-	width: 250px;
-	margin: 10px;
+	width: 190px;
+	float: right;
+	margin-top: 23px;
+	margin-bottom: 5px;
+	margin-right: 22px;
+	border:1px rgb(197,197,197) solid;
 }
+
+.inbox3-2
+{
+	width: 190px;
+	float: right;
+	margin-top:0;
+	margin-right: 22px;
+	border:1px rgb(197,197,197) solid;
+}
+
 
 .inbox3img2
 {
-	margin: 10px;
+	position: absolute;
+	float: left;
+	top: 195px;
+	margin-left:16px; 
+	margin-right: 6px;
+	left: 8px;
+}
+
+.inbox3img3
+{
+	position: absolute;
+	float: left;
+	top: 195px;
+	margin-left:0; 
+	margin-right: 6px;
+	left: 122px;
+}
+
+.inbox3img4
+{
+	position: absolute;
+	float: left;
+	top: 195px;
+	margin-left:0; 
+	margin-right: 6px;
+	left: 203px;
 }
 
 .box4
 {
-	width: 400px;
-	height: 50px;
-    border-bottom: 2px solid #E0E0E0;
+	width: 291px;
+	height: 46px;
+    border-bottom: 2px solid rgb(247,247,247);
     text-align: center;
 }
 
 .inbox4
 {
-    width: 360px;
-    margin: 15px;
+    width: 262px;
+    margin-left: 2px;
+    margin-top: 13px;
+    border:1px rgb(197,197,197) solid;
+}
+
+
+.box5
+{
+	font-size: small;
 }
 
 #div1
 {
-	width: 156px;
-	height: 200px;
+	width: 112px;
+	height: 142px;
 	float: left;
 	margin-left: 2px;
 	text-align: center;
-	
 }
 
 .part1
 {
-   width: 78px;
-   height: 100px;
+   width: 56px;
+   height: 70px;
    float: left;
-   border-left: 2px solid #E0E0E0;
+   border-left: 2px solid rgb(247,247,247);
    text-align: center;
 }
 
 .part2
 {
-   width: 78px;
-   height: 100px;
+   width: 56px;
+   height: 70px;
    float: left;
-   border-left: 2px solid #E0E0E0;
-   border-top: 2px solid #E0E0E0;
+   border-left: 2px solid rgb(247,247,247);
+   border-top: 2px solid rgb(247,247,247);
    text-align: center;
 }
 
 .part3
 {
-	 width: 78px;
-     height: 100px;
+	 width: 56px;
+     height: 70px;
      float: left;
-	 border-top: 2px solid #E0E0E0;
+	 border-top: 2px solid rgb(247,247,247);
 	 text-align: center;
 }
 
@@ -124,7 +192,13 @@
 {
 	display: block; 
 	margin: auto;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 5px;
 }
+
+#img1
+{
+	padding-top: 25px;
+}
+
 

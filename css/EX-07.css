@@ -339,7 +339,7 @@ h4{
 {
 	border: 1px solid #D8D8EB;
 	/*border-right: 0;*/
-	height: 128px;
+	height: 130px;
 	border-top: 0;
 }
 #part2-view1-3
@@ -360,7 +360,7 @@ h4{
 {
 	border: 1px solid #D8D8EB;
 	border-right: 0;
-	height: 153px;
+	height: 155px;
 	border-top: 0;
 }
 
@@ -379,7 +379,7 @@ h4{
 {
 	border-left: 1px solid #D8D8EB;
 	border-bottom: 1px solid #D8D8EB;
-	height: 128px;
+	height: 130px;
 }
 .part4 .pic .play
 {
@@ -500,6 +500,7 @@ h4{
 	border:1px solid #D8D8EB;
 	height: 120px;
 	padding: 2%;
+	margin-top: 8px;
 }
 .part8 #part8-p2
 {

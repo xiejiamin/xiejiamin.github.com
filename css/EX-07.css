@@ -157,7 +157,26 @@
 	height: 95px;
 }
 .pic-free{
+	width: 80px;
+	height: 80px;
+	background-color: rgb(102,102,102);
+	margin-right: 12px;
 	float: left;
+	overflow: hidden;
+}
+.pic-free-dec
+{
+	margin-left: -55%;
+	position: relative;
+	top: 8%;
+    transform: rotate(-45deg);
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    color: #F0F9FD;
+    font-size: 11px;
+    line-height: 25px;
+    background: rgb(0,194,175);
 }
 .row-item .col-xs-12 span{
 	float: left;

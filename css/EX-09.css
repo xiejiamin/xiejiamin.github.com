@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*part one*/
+body
+{
+	text-align: center;
+}
+a
+{
+	font-size: 30px;
+}
+.container
+{
+	position: absolute;
+	top: 200px;
+}

@@ -1,0 +1,16 @@
+#map
+{
+	width: 700px;
+	height: 550px;
+	position: absolute;
+	left: 100px;
+	top: 10px;
+}
+#result
+{
+   width: 360px;
+   height: 80px;
+   position: absolute;
+   left: 850px;
+   top: 10px;
+}

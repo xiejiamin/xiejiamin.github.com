@@ -1,8 +1,10 @@
 @charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2017-03-19 14:26:33
- * @version $Id$
- */
-
+body
+{
+	text-align: center;
+}
+.content
+{
+	margin-top: 80px;
+	font-size: 20px;
+}

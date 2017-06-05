@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8"/>
+		<title>忘记密码</title>
+		<!-- <link href="font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet"> -->
+		<link href="css/forget.css" rel="stylesheet">
+		<script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/forget.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="middle">
+				<div class="img">
+					<img src="img/order_pic.png">
+				</div>
+				<div class="forget">
+					<div class="forget_title">
+						<div class="forget_font">忘记密码</div>
+					</div>
+					<div class="instr_word">请选择验证方式</div>
+					<div class="choose_way">
+						<div class="mail">注册邮箱</div>
+						<div class="mobile">已绑定手机</div>
+					</div>
+					<form action="php/forget_pwd2.php" method="GET" class="mobile_way">
+						<div class="block">
+							<input type="text" name="usermobile" class="inputbox account-input" placeholder="手机号码">
+						</div>
+						<div class="block">
+							<input type="text" name="captcha" class="captcha account-input" placeholder="短信验证码">
+							<button class="sent_mail">发送验证码</button>
+						</div>
+						<div class="block">
+							<input type="password" name="password" class="password account-input" placeholder="密码">
+						</div>
+						<div class="block">
+							<input type="password" name="confirmPassword" class="password account-input" placeholder="确认密码">
+						</div>
+						<div>
+							<button class="login_in_button">确认</button>
+						</div>
+					</form>
+					<form action="php/forget_pwd1.php" method="GET" class="mail_way">
+						<div class="block">
+							<input type="text" name="usermail" class="inputbox account-input" placeholder="注册邮箱">
+						</div>
+						<div class="block">
+							<input type="text" name="captcha" class="captcha account-input" placeholder="验证码">
+							<img src="img/captcha_pic.png" class="captcha_pic">
+							<a class="captcha_font">看不清换一张</a>
+						</div>
+						<div class="block">
+							<input type="password" name="password" class="password account-input" placeholder="密码">
+						</div>
+						<div class="block">
+							<input type="password" name="confirmPassword" class="password account-input" placeholder="确认密码">
+						</div>
+						<div>
+							<button class="login_in_button">确认</button>
+						</div>
+					</form>
+					<!-- <div>
+						<button class="login_in_button">确认</button>
+					</div> -->
+					<div class="sign_or_forget">
+						<a class="right" href="login.html">返回登录</a>
+						<div class="clear"></div>
+					</div>
+					<div class="line">
+						<span class="way_font">可使用以下账号直接登录</span>
+						<a class="qq"></a>
+						<a class="weibo"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p class="line_one">
+			      	<a class="footer-link" href="#">购买会员</a> |
+			      	<a class="footer-link" href="#">联系我们</a> |
+			      	<a class="footer-link" href="#">服务条款和协议</a> |
+			      	<a class="footer-link" href="#">加入我们</a>
+			    </p>
+			    <p class="line_two">
+			      		增值电信业务许可证 : 
+			      	<a class="footer-link" target="_blank" rel="nofollow" href="#">
+			      		沪B2-20150033
+			      	</a> |
+			      	<a class="footer-link" target="_blank" rel="nofollow" href="#">
+			      		沪ICP备 09007032</a> |
+			      	<a class="footer-link" target="_blank" rel="nofollow" href="#">
+			      		中国互联网举报中心 
+			      		</a>
+			      		Copyright &copy;2017-2017 ele.me, All Rights Reserved.
+			    </p>
+			</div>
+		</div>
+	</body>
+</html>

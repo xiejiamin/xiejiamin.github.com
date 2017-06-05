@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8"/>
+		<title>注册</title>
+		<link href="lib/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/register.css" rel="stylesheet">
+		<script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/register.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="middle">
+				<div class="img">
+					<img src="img/order_pic.png">
+				</div>
+				<div class="register">
+
+					<div class="register_title">
+						<div class="register_font">注册</div>
+						<div class="login">
+							<a class="right dir_login" href="login.html" >直接登录</a>
+						</div>
+					</div>
+					<form action="php/sign_up.php" method="GET">
+						<div class="block">
+							<input type="text" name="username" class="inputbox account-input" placeholder="用户名">
+						</div>
+						<div class="block">
+							<input type="text" name="userphone" class="inputbox account-input" placeholder="电话号码">
+						</div>
+						<div class="block">
+							<input type="text" name="usermail" class="inputbox account-input" placeholder="电子邮箱">
+						</div>
+						<div class="block">
+							<input type="password" name="password" class="password account-input" placeholder="密码">
+						</div>
+						<div class="block">
+							<input type="password" name="confirmPassword" class="password account-input" placeholder="确认密码">
+						</div>
+						<div class="block">
+							<input type="text" name="captcha" class="captcha account-input" placeholder="验证码">
+							<img src="img/captcha_pic1.png" class="captcha_pic">
+							<a class="captcha_font">看不清换一张</a>
+						</div>					
+						<div>
+							<a href="instruction.html" class="agreement">使用条款和协议</a>
+						</div>
+						<div>
+							<button class="login_in_button">同意协议并注册</button>
+						</div>
+
+					</form>
+						
+					<div class="line">
+						<span class="way_font">可使用以下账号直接登录</span>
+						<a class="qq"></a>
+						<a class="weibo"></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p class="line_one">
+			      	<a class="footer-link" href="">购买会员</a> |
+			      	<a class="footer-link" href="">联系我们</a> |
+			      	<a class="footer-link" href="">服务条款和协议</a> |
+			      	<a class="footer-link" href="">加入我们</a>
+			    </p>
+			    <p class="line_two">
+			      		增值电信业务许可证 : 
+			      	<a class="footer-link" target="_blank" rel="nofollow" href="">
+			      		沪B2-20150033
+			      	</a> |
+			      	<a class="footer-link" target="_blank" rel="nofollow" href="">
+			      		沪ICP备 09007032</a> |
+			      	<a class="footer-link" target="_blank" rel="nofollow" href="">
+			      		 中国互联网举报中心
+			      		</a>
+			      		Copyright &copy;2017-2017 ele.me, All Rights Reserved.
+			    </p>
+			</div>
+		</div>
+	</body>
+</html>

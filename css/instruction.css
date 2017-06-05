@@ -1,0 +1,138 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+#instructionImg{
+    width: 1500px;
+    height: 700px;
+}
+.instructionMain{
+    width: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.instructionMember{
+    /*background:url("../img/instruction-member.jpg");*/
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+.instructionBold{
+    font-size: 25px;
+}
+.instructionMember-every{
+    color: red;
+}
+p{
+    margin-left: 50px;
+}
+.instructionWish{
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+
+.instructionAddition{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1500px;
+    height: 150px;
+    background-color: #ecf0f1;
+    padding-top: 20px;
+}
+.instructionAddition-more{
+    margin-left: 100px;
+}
+.instructionAddition-more img
+{
+    position: relative;
+    /*top: -20px;*/
+    height: 150px;
+}
+.instruction-smalleye{
+    margin-top: -20px;
+    width:300px;
+    height: 200px;
+}
+.instructionAddition a{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 15px;
+ }
+a.instructionAddition-title{
+    font-size: 18px;
+    color: blue;
+    font-weight:600;
+    padding-bottom: 50px;
+    font-family:STKaiti;
+}
+ .instruction-eye{
+    margin-top: -50px;
+ }
+ .instructionAddition-last{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1500px;
+    height: 30px;
+    margin-top: 30px;
+ }
+ .instructionAddition-last a
+ {
+    font-size: 13px;
+ }
+ .instructionAddition-last-left{
+    color:#747b81;
+    margin-left: 220px;
+ }
+ .instructionAddition-last-right{
+    color:#747b81;
+    margin-left: 220px;
+ }
+.instruction-head{
+    width: 1333px;
+}
+   nav{  
+        width: 1500px;  
+        height: 40px;     
+        background: rgba(0,0,0,.3);  
+        position: absolute;  
+        z-index: 10;  
+    }  
+    nav ul{  
+        list-style: none;  
+        margin: 0;  
+        padding: 0;  
+    }  
+    nav ul li{  
+        text-align: center;  
+        float: left;  
+        line-height: 40px;  
+    }  
+    nav ul li a{  
+        text-decoration: none;
+        width: 100px;  
+        color: #fff;  
+        font-size: 18px;  
+        font-weight:400;  
+        display: block;  
+    }  
+    nav ul li a:hover,nav ul li a:visited{  
+        text-decoration: none;  
+        background: rgba(0,0,0,.5);  
+        color: #fff;  
+    }  
+    .instruction-words{
+        font-family:STXinwei;
+        color:white;
+        font-size: 60px;  
+        letter-spacing: 10px;  
+        position: absolute;  
+        top:300px;  
+        left: 267px;
+    }  
+    .instruction-imgw{
+         width: 1500px;  
+        position: relative;
+    }  

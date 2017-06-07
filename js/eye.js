@@ -1,42 +1,66 @@
+ $(function() {
+    $( document ).tooltip();
+  });
+
+$(function() {
+    $( document ).tooltip({
+      items: "img, [data-geo], [title]",
+      content: function() {
+        var element = $( this );
+        if ( element.is( "[data-geo]" ) ) {
+          var text = element.text();
+          return "<img class='map' src='"+ $(this).attr("src") + "'>";
+        }
+        if ( element.is( "[title]" ) ) {
+          return element.attr( "title" );
+        }
+        if ( element.is( "img" ) ) {
+          return element.attr( "alt" );
+        }
+      }
+    });
+  });
+
+
 // PART 1
 $(document).ready(function(){
-	$(function(){
-		var aDiv=$('#banner');
-		var oUl=$('#scroll');
-		var aLi=oUl.children();
-		var n=0;
-		var oA=aLi.children();
-		
-		aLi.mouseenter(function(){
-			n=$(this).index();
-			aLi.removeClass('active');
-			oA.removeClass('colors')
-			aLi.eq($(this).index()).addClass('active');
-			aDiv.css('background','url(img/header/'+($(this).index()+1)+'.jpg)repeat-x  center top #010101 ')
-			oA.eq($(this).index()).addClass('colors');
-		})
-		
-		var timer=setInterval(tick,1500)
-		aLi.mouseenter(function(){
-			clearInterval(timer);	
-		})
-		aLi.mouseleave(function(){
-			timer=setInterval(tick, 1500)	
-		})
+    $(function(){
+        var aDiv=$('#banner');
+        var oUl=$('#scroll');
+        var aLi=oUl.children();
+        var n=0;
+        var oA=aLi.children();
+        
+        aLi.mouseenter(function(){
+            n=$(this).index();
+            aLi.removeClass('active');
+            oA.removeClass('colors')
+            aLi.eq($(this).index()).addClass('active');
+            aDiv.css('background','url(img/header/'+($(this).index()+1)+'.jpg)repeat-x  center top #010101 ')
+            oA.eq($(this).index()).addClass('colors');
+        })
+        
+        var timer=setInterval(tick,1500)
+        aLi.mouseenter(function(){
+            clearInterval(timer);   
+        })
+        aLi.mouseleave(function(){
+            timer=setInterval(tick, 1500)   
+        })
 
-		function tick()
-			{
-				n++;
-				if(n == aLi.length)
-				{
-					n=0;	
-				}	
-				oA.removeClass('colors')
-				oA.eq(n).addClass('colors')
-				aLi.eq(n).addClass('active').siblings().removeClass('active');
-				aDiv.css('background','url(img/header/'+(n+1)+'.jpg)repeat-x  center top #010101 ')
-			}
-	});
+        function tick()
+            {
+                n++;
+                if(n == aLi.length)
+                {
+                    n=0;    
+                }   
+                oA.removeClass('colors')
+                oA.eq(n).addClass('colors')
+                aLi.eq(n).addClass('active').siblings().removeClass('active');
+                aDiv.css('background','url(img/header/'+(n+1)+'.jpg)repeat-x  center top #010101 ')
+            }
+    });
 });
 
 

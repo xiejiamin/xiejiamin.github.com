@@ -6,6 +6,12 @@ body
     margin:0;
     padding:0;
 }
+
+.map {
+    width: 250px;
+    height: 170px;
+  }
+
 /*PART 1*/
 .part1 a{ text-decoration:none; color:#000;}
 .part1 li{ list-style:none;}
